@@ -1,0 +1,9 @@
+{
+	"name": "data-factory-test-07-05",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "70d4908c-99e7-41e6-8157-be9fa101ea73",
+		"tenantId": "c9c65abe-c1b9-478b-a598-b0da8b3b2b95"
+	}
+}
