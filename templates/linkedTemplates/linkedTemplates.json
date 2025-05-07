@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfadbprd001"
+		},
+		"dataFactory_properties_globalParameters_environment_value": {
+			"value": "prod"
+		},
+		"dataFactory_properties_globalParameters_dev_resource_group_value": {
+			"value": "AZR-WEK-rg-adf-adb-001"
+		},
+		"dataFactory_properties_globalParameters_dev_subscription_id_value": {
+			"value": "00ab5361-0cd5-44b3-b4df-8f24e00fe1df"
+		},
+		"dataFactory_properties_globalParameters_prod_resource_group_value": {
+			"value": "AZR-WEK-rg-adf-adb-001"
+		},
+		"dataFactory_properties_globalParameters_prod_subscription_id_value": {
+			"value": "00ab5361-0cd5-44b3-b4df-8f24e00fe1df"
+		},
+		"dataFactory_location": {
+			"value": "southeastasia"
+		},
+		"dataFactory_identity_type": {
+			"value": "SystemAssigned"
+		}
+	}
+}
